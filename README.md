@@ -1,23 +1,24 @@
 # Diabetes Prediction: Logistic Regression vs. LDA
 
 ## 📌 Project Overview
-[cite_start]This project focuses on the early detection of diabetes using the **Pima Indians Diabetes Dataset**[cite: 15, 103]. The primary objective is to implement and strictly compare two linear classification models to determine which offers superior diagnostic ability:
-1.  [cite_start]**Logistic Regression** (Probabilistic Discriminative) [cite: 101]
-2.  [cite_start]**Linear Discriminant Analysis (LDA)** (Linear Generative) [cite: 102]
+This project focuses on the early detection of diabetes using the **Pima Indians Diabetes Dataset
+The primary objective is to implement and strictly compare two linear classification models to determine which offers superior diagnostic ability:
+1.  **Logistic Regression** (Probabilistic Discriminative)
+2.  **Linear Discriminant Analysis (LDA)** (Linear Generative)
 
-[cite_start]This study aims to identify the model with the best balance of **Precision, Recall, and F1-Score** while interpreting the coefficients to understand significant medical predictors[cite: 13, 112].
+This study aims to identify the model with the best balance of **Precision, Recall, and F1-Score** while interpreting the coefficients to understand significant medical predictors.
 
 ## 🎯 Objectives
-* [cite_start]**Preprocessing:** Handle missing values (e.g., zero-value Glucose/BMI) using median imputation and apply **StandardScaler** to normalize feature distributions[cite: 35, 37].
-* [cite_start]**Modeling:** Train Logistic Regression and LDA models on the processed dataset[cite: 40].
-* [cite_start]**Evaluation:** Compare performance using Accuracy, F1-Score, and **ROC Curve Analysis**[cite: 46, 111].
-* [cite_start]**Interpretation:** Analyze model coefficients to identify key risk factors like Glucose and BMI[cite: 66, 112].
+* **Preprocessing:** Handle missing values (e.g., zero-value Glucose/BMI) using median imputation and apply **StandardScaler** to normalize feature distributions.
+* **Modeling:** Train Logistic Regression and LDA models on the processed dataset.
+* **Evaluation:** Compare performance using Accuracy, F1-Score, and **ROC Curve Analysis**
+* **Interpretation:** Analyze model coefficients to identify key risk factors like Glucose and BMI
 
 ## 🛠️ Technologies Used
 * **Python 3.x**
-* [cite_start]**Scikit-Learn:** For model training, scaling, and evaluation metrics[cite: 105].
-* [cite_start]**Pandas & NumPy:** For data manipulation and numerical operations[cite: 105].
-* [cite_start]**Matplotlib & Seaborn:** For visualizing ROC curves and correlation heatmaps[cite: 105].
+* **Scikit-Learn:** For model training, scaling, and evaluation metrics.
+* **Pandas & NumPy:** For data manipulation and numerical operations.
+* **Matplotlib & Seaborn:** For visualizing ROC curves and correlation heatmaps.
 
 ## ⚙️ Installation & Setup
 
