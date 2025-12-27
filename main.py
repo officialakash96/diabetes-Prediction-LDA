@@ -52,3 +52,19 @@ def preprocess_data(df):
 
 X_train, X_test, y_train, y_test, feature_names = preprocess_data(df)
 print("Data preprocessed and scaled.")
+
+
+# Feature: Model Training Implementation
+def train_models(X_train, y_train):
+    models = {
+        'Logistic Regression': LogisticRegression(random_state=42),
+        'LDA': LinearDiscriminantAnalysis()
+    }
+    
+    for name, model in models.items():
+        model.fit(X_train, y_train)
+        print(f"{name} trained.")
+        
+    return models
+
+trained_models = train_models(X_train, y_train)
