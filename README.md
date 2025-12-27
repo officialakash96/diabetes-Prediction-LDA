@@ -1,6 +1,4 @@
 # Diabetes Prediction: Logistic Regression vs. LDA
-# Author: Akash Singh
-# Date: 27Dec2025
 
 ## 📌 Project Overview
 [cite_start]This project focuses on the early detection of diabetes using the **Pima Indians Diabetes Dataset**[cite: 15, 103]. The primary objective is to implement and strictly compare two linear classification models to determine which offers superior diagnostic ability:
