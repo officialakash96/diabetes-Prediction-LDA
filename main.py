@@ -15,3 +15,17 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 load_dotenv()
 
 print("Libraries loaded and environment configured.")
+
+# Feature: Data Loading Pipeline
+def load_data():
+    url = os.getenv("DATASET_URL")
+    if not url:
+        raise ValueError("DATASET_URL not found in .env file")
+    
+    print(f"Loading data from: {url}")
+    df = pd.read_csv(url)
+    return df
+
+# Execute Load
+df = load_data()
+print(f"Data Loaded. Shape: {df.shape}")
